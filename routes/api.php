@@ -18,7 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/','ApiDash\HomeController@index');
+  Route::get('/','ApiDash\HomeController@index');
 
 // Route::get('/', function () {
 //     return response()->json(['status' => true]);
